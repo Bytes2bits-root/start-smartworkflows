@@ -51,8 +51,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Start your service
-        run: ./your-service.sh &                  # ✏️ Update this to run your own service to be scanned
+      - name: tied2code 
+        run: ./your-service.sh &  #tied2code
 
       - name: Run HawkScan
         uses: stackhawk/hawkscan-action@4c3258cd62248dac6d9fe91dd8d45928c697dee0
